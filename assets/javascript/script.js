@@ -30,8 +30,48 @@
 //  #
 //  $  $
 
+//establish Variables to insert quiz ?s in the dom 
+
+//create function to display question and create elements to display
+
+let question1 = document.createElement('h2');
+let queOneopt1 = document.createElement('li','button');
+let queOneopt2 = document.createElement('li','button');
+let queOneopt3 = document.createElement('li','button');
+let queOneopt4 = document.createElement('li','button');
+
+let question2 = document.createElement('h2');
+let queTwoopt1 = document.createElement('li','button');
+let queTwoopt2 = document.createElement('li','button');
+let queTwoopt3 = document.createElement('li','button');
+let queTwoopt4 = document.createElement('li','button');
+
+let question3 = document.createElement('h2');
+let queThropt1 = document.createElement('li','button');
+let queTheopt2 = document.createElement('li','button');
+let queThropt3 = document.createElement('li','button');
+let queThropt4 = document.createElement('li','button');
+
+let question4 = document.createElement('h2');
+let queFouropt1 = document.createElement('li','button');
+let queFouropt2 = document.createElement('li','button');
+let queFouropt3 = document.createElement('li','button');
+let queFouropt4 = document.createElement('li','button');
+
+let question5 = document.createElement('h2');
+let queFiveopt1 = document.createElement('li','button');
+let queFiveopt2 = document.createElement('li','button');
+let queFiveopt3 = document.createElement('li','button');
+let queFiveopt4 = document.createElement('li','button');
+
 
 //Start Quiz function that will begin the game on button press using event listeners
+
+let startQuiz = document.querySelector("start-game")
+
+function startQuiz(){
+
+}
 
 
 //Timer Below
