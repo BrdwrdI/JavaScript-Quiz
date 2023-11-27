@@ -37,6 +37,7 @@
 let question1 = document.createElement('h2');
 question1.textContent = "#1 JavaScript is an _____ Language?";
 let queOneOpt1 = document.createElement('button');
+// queOneOpt1.classList.add
 queOneOpt1.textContent = "A. Object-Oriented";
 let queOneOpt2 = document.createElement('button');
 queOneOpt2.textContent = "B. Object Based"; 
@@ -129,6 +130,8 @@ questions = [question1,question2,question3,question4,question5]
 let questionDisplay = document.querySelector(".intro-blurb");
 let choices = document.querySelector(".multiple-Choice");
 let startButton = document.querySelector(".start-button")
+let options = document.getElementsByTagName("button")
+
 
 let quizStarted = false;
 let timer;
@@ -141,7 +144,7 @@ function startQuiz() {
     countDown = 60;
     startButton.disabled = true;
     counter();
-    displayQuestion();
+    displayQuestion(0);
 }
 
 //quiz complete function will be run when the last questions button is pressed
@@ -156,19 +159,17 @@ function outOfTime() {
     quizStarted.disabled = false;
 }
 
-function displayQuestion() {
+function displayQuestion(j) {
     //replace text content in #intro-blurb with questions
     questionDisplay.innerHTML = "";
+        // console.log(questions[j]);
+    questionDisplay.appendChild(question1[j]);
+    options = document.getElementsByTagName("button");
+    console.log(options);
 
-
-    //for loop to display questions
-    for (let i = 0; i <= questions.length; i++){
-        //append questions to questionDisplay
-        
-        questionDisplay.appendChild(questions[i])
-
-    }
-return;
+    // for(let i = 0; i <= options.length; i++){
+    //     options[i].addEventListener("click",displayQuestion());
+    // }
 }
 
 //Timer Below
@@ -190,7 +191,7 @@ function counter() {
             clearInterval(timerInterval);
             outOfTime();
         }
-    })
+    }, 1000);
 }
 
-startButton.addEventListener("click", startQuiz());
+startButton.addEventListener("click", startQuiz);
