@@ -40,22 +40,25 @@ question1.textContent = "#1 JavaScript is an _____ Language?";
 let queOneOpt1 = document.createElement('button');
 queOneOpt1.textContent = "A. Object-Oriented"; //correct
 queOneOpt1.setAttribute('option-btn');
-queOneOpt1.getElementById('id', "Correct");
+queOneOpt1.getElementById('option-1', "Correct");
 
 let queOneOpt2 = document.createElement('button');
 queOneOpt2.textContent = "B. Object Based"; 
 queOneOpt2.setAttribute('option-btn');
-queOneOpt2.getElementById('id', "incorrect");
+queOneOpt2.getElementById('option-2', "incorrect");
 
 let queOneOpt3 = document.createElement('button');
 queOneOpt3.textContent = "C. Procedural";
 queOneOpt3.setAttribute('option-btn');
-queOneOpt3.getElementById('id', "incorrect");
+queOneOpt3.getElementById('option-3', "incorrect");
 
 let queOneOpt4 = document.createElement('button');
 queOneOpt4.textContent = "D. None of the Above";
 queOneOpt4.setAttribute('option-btn');
-queOneOpt4.getElementById('id', "incorrect");
+queOneOpt4.getElementById('option-4', "incorrect");
+
+
+const question = question1;
 
 
 
@@ -65,22 +68,22 @@ question2.textContent = "#2 Which of the following methods is used to access HTM
 let queTwoOpt1 = document.createElement('button');
 queTwoOpt1.textContent = "A. getElementbyId()";
 queTwoOpt1.setAttribute('option-btn');
-queTwoOpt1.getElementById('id', "incorrect");
+queTwoOpt1.getElementById('option-1', "incorrect");
 
 let queTwoOpt2 = document.createElement('button');
 queTwoOpt2.textContent = "B. getElementsByClassName()";
 queTwoOpt2.setAttribute('option-btn');
-queTwoOpt2.getElementById('id', "incorrect");
+queTwoOpt2.getElementById('option-2', "incorrect");
 
 let queTwoOpt3 = document.createElement('button');
 queTwoOpt3.textContent = "C. Both A and B" //correct
 queTwoOpt3.setAttribute('option-btn');
-queTwoOpt3.getElementById('id', "Correct");
+queTwoOpt3.getElementById('option-3', "Correct");
 
 let queTwoOpt4 = document.createElement('button');
 queTwoOpt4.textContent = "D. None of the above";
 queTwoOpt4.setAttribute('option-btn');
-queTwoOpt4.getElementById('id', "incorrect");
+queTwoOpt4.getElementById('option-4', "incorrect");
 
 
 
@@ -90,22 +93,22 @@ question3.textContent = "#3 Which of the following keywords is uded to define a 
 let queThrOpt1 = document.createElement('button');
 queThrOpt1.textContent = "A. var"; 
 queThrOpt1.setAttribute('option-btn');
-queThrOpt1.getElementById('id', "incorrect");
+queThrOpt1.getElementById('option-1', "incorrect");
 
 let queThrOpt2 = document.createElement('button');
 queThrOpt2.textContent = "B. let";
 queThrOpt2.setAttribute('option-btn');
-queThrOpt2.getElementById('id', "incorrect");
+queThrOpt2.getElementById('option-2', "incorrect");
 
 let queThrOpt3 = document.createElement('button');
 queThrOpt3.textContent = "C. Both A and B"; //correct
 queThrOpt3.setAttribute('option-btn');
-queThrOpt3.getElementById('id', "Correct");
+queThrOpt3.getElementById('option-3', "Correct");
 
 let queThrOpt4 = document.createElement('button');
 queThrOpt4.textContent = "D. None of the above";
 queThrOpt4.setAttribute('option-btn');
-queThrOpt4.getElementById('id', "incorrect");
+queThrOpt4.getElementById('option-4', "incorrect");
 
 
 
@@ -115,22 +118,22 @@ question4.textContent = "#4 How to stop and interval timer in JavaScript?";
 let queFourOpt1 = document.createElement('button');
 queFourOpt1.textContent = "A. clearInterval"; //correct
 queFourOpt1.setAttribute('option-btn');
-queFourOpt1.getElementById('id', "Correct");
+queFourOpt1.getElementById('option-1', "Correct");
 
 let queFourOpt2 = document.createElement('button');
 queFourOpt2.textContent = "B. clearTimer";
 queFourOpt2.setAttribute('option-btn');
-queFourOpt2.getElementById('id', "incorrect");
+queFourOpt2.getElementById('option-2', "incorrect");
 
 let queFourOpt3 = document.createElement('button');
 queFourOpt3.textContent = "C. intervalOver";
 queFourOpt3.setAttribute('option-btn');
-queFourOpt3.getElementById('id', "incorrect");
+queFourOpt3.getElementById('option-3', "incorrect");
 
 let queFourOpt4 = document.createElement('button');
 queFourOpt4.textContent = "D. None of the Above";
 queFourOpt4.setAttribute('option-btn');
-queFourOpt4.getElementById('id', "incorrect");
+queFourOpt4.getElementById('option-4', "incorrect");
 
 
 
@@ -140,22 +143,22 @@ question5.textContent = "#5 How do we write a comment in JavaScript?"
 let queFiveOpt1 = document.createElement('button');
 queFiveOpt1.textContent = "A. /* */"
 queFiveOpt1.setAttribute('option-btn');
-queFiveOpt1.getElementById('id', "incorrect");
+queFiveOpt1.getElementById('option-1', "incorrect");
 
 let queFiveOpt2 = document.createElement('button');
 queFiveOpt2.textContent = "B. //" //correct
 queFiveOpt2.setAttribute('option-btn');
-queFiveOpt2.getElementById('id', "Correct");
+queFiveOpt2.getElementById('option-2', "Correct");
 
 let queFiveOpt3 = document.createElement('button');
 queFiveOpt3.textContent = "C. #"
 queFiveOpt3.setAttribute('option-btn');
-queFiveOpt3.getElementById('id', "incorrect");
+queFiveOpt3.getElementById('option-3', "incorrect");
 
 let queFiveOpt4 = document.createElement('button');
 queFiveOpt4.textContent = "D. $ $"
 queFiveOpt4.setAttribute('option-btn');
-queFiveOpt4.getElementById('id', "incorrect");
+queFiveOpt4.getElementById('option-4', "incorrect");
 
 // question1.appendChild(queOneOpt1);
 // question1.appendChild(queOneOpt2);
